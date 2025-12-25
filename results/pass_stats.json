@@ -1,0 +1,506 @@
+[
+    {
+        "model": "codegen",
+        "file": "CharacterCounter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "CircleArea.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "DeadlockDetector.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "EvenOddChecker.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "EventDispatcher.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "FactorialCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "FibonacciCache.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "MaxOfThree.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "MultiplicationTable.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "PalindromeChecker.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "ParallelFileLineCount.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "ParallelPrimeFinder.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "ProducerConsumer.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "SharedResourcePool.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "SimpleInterest.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "SpeculativeExecutor.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "SumCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codegen",
+        "file": "TempConverter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "CharacterCounter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "CircleArea.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "DeadlockDetector.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "EvenOddChecker.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "EventDispatcher.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "FactorialCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "FibonacciCache.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "MaxOfThree.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "MultiplicationTable.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "PalindromeChecker.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "ParallelFileLineCount.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "ParallelPrimeFinder.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "ProducerConsumer.java",
+        "passed": 6,
+        "total": 10,
+        "pass_rate": 60.0
+    },
+    {
+        "model": "codet5",
+        "file": "SharedResourcePool.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "SimpleInterest.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "SpeculativeExecutor.java",
+        "passed": 4,
+        "total": 10,
+        "pass_rate": 40.0
+    },
+    {
+        "model": "codet5",
+        "file": "SumCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "codet5",
+        "file": "TempConverter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "CharacterCounter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "CircleArea.java",
+        "passed": 1,
+        "total": 10,
+        "pass_rate": 10.0
+    },
+    {
+        "model": "gemini",
+        "file": "DeadlockDetector.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "EvenOddChecker.java",
+        "passed": 10,
+        "total": 10,
+        "pass_rate": 100.0
+    },
+    {
+        "model": "gemini",
+        "file": "EventDispatcher.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "FactorialCalculator.java",
+        "passed": 6,
+        "total": 10,
+        "pass_rate": 60.0
+    },
+    {
+        "model": "gemini",
+        "file": "FibonacciCache.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "MaxOfThree.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "MultiplicationTable.java",
+        "passed": 5,
+        "total": 10,
+        "pass_rate": 50.0
+    },
+    {
+        "model": "gemini",
+        "file": "PalindromeChecker.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "ParallelFileLineCount.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "ParallelPrimeFinder.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "ProducerConsumer.java",
+        "passed": 6,
+        "total": 10,
+        "pass_rate": 60.0
+    },
+    {
+        "model": "gemini",
+        "file": "SharedResourcePool.java",
+        "passed": 1,
+        "total": 10,
+        "pass_rate": 10.0
+    },
+    {
+        "model": "gemini",
+        "file": "SimpleInterest.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "SpeculativeExecutor.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "SumCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "gemini",
+        "file": "TempConverter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "CharacterCounter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "CircleArea.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "DeadlockDetector.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "EvenOddChecker.java",
+        "passed": 10,
+        "total": 10,
+        "pass_rate": 100.0
+    },
+    {
+        "model": "hybrid",
+        "file": "EventDispatcher.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "FactorialCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "FibonacciCache.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "MaxOfThree.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "MultiplicationTable.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "PalindromeChecker.java",
+        "passed": 10,
+        "total": 10,
+        "pass_rate": 100.0
+    },
+    {
+        "model": "hybrid",
+        "file": "ParallelFileLineCount.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "ParallelPrimeFinder.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "ProducerConsumer.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "SharedResourcePool.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "SimpleInterest.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "SpeculativeExecutor.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "SumCalculator.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    },
+    {
+        "model": "hybrid",
+        "file": "TempConverter.java",
+        "passed": 0,
+        "total": 10,
+        "pass_rate": 0.0
+    }
+]

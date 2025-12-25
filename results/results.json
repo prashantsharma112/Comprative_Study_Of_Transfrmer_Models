@@ -1,0 +1,938 @@
+{
+    "CharacterCounter": [
+        {
+            "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 0 times.",
+            "error": ""
+        },
+        {
+            "input": "1234",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 0 times.",
+            "error": ""
+        },
+        {
+            "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 0 times.",
+            "error": ""
+        },
+        {
+            "input": "1234 a",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 0 times.",
+            "error": ""
+        },
+        {
+            "input": "1234 abc",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 0 times.",
+            "error": ""
+        },
+        {
+            "input": "str1817 str4694",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 2 times.",
+            "error": ""
+        },
+        {
+            "input": "str455 str2812",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 2 times.",
+            "error": ""
+        },
+        {
+            "input": "str4126 str4407",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 2 times.",
+            "error": ""
+        },
+        {
+            "input": "str2271 str1192",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 2 times.",
+            "error": ""
+        },
+        {
+            "input": "str7288 str8874",
+            "output": "Enter a string: Enter the character to count: The character 's' appears 2 times.",
+            "error": ""
+        }
+    ],
+    "CircleArea": [
+        {
+            "input": "-1.0",
+            "output": "Enter the radius of the circle: The area of the circle is: 3.141592653589793",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0",
+            "output": "Enter the radius of the circle: The area of the circle is: 3.1415926535897933E18",
+            "error": ""
+        },
+        {
+            "input": "-1000000000.0",
+            "output": "Enter the radius of the circle: The area of the circle is: 3.1415926535897933E18",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0",
+            "output": "Enter the radius of the circle: The area of the circle is: 3.1415926535897933E18",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0",
+            "output": "Enter the radius of the circle: The area of the circle is: 3.1415926535897933E18",
+            "error": ""
+        },
+        {
+            "input": "-200247.2682",
+            "output": "Enter the radius of the circle: The area of the circle is: 1.2597462460971057E11",
+            "error": ""
+        },
+        {
+            "input": "-623322.172",
+            "output": "Enter the radius of the circle: The area of the circle is: 1.2206046590788633E12",
+            "error": ""
+        },
+        {
+            "input": "119757.7538",
+            "output": "Enter the radius of the circle: The area of the circle is: 4.50564692387231E10",
+            "error": ""
+        },
+        {
+            "input": "-701921.9265",
+            "output": "Enter the radius of the circle: The area of the circle is: 1.5478450789209602E12",
+            "error": ""
+        },
+        {
+            "input": "946663.6358",
+            "output": "Enter the radius of the circle: The area of the circle is: 2.8154074951622124E12",
+            "error": ""
+        }
+    ],
+    "DeadlockDetector": [
+        {
+            "input": "0",
+            "output": "NO_DEADLOCK",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "NO_DEADLOCK",
+            "error": ""
+        },
+        {
+            "input": "0",
+            "output": "NO_DEADLOCK",
+            "error": ""
+        },
+        {
+            "input": "-1",
+            "output": "NO_DEADLOCK",
+            "error": ""
+        },
+        {
+            "input": "1000000000",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat DeadlockDetector.main(DeadlockDetector.java:23)"
+        },
+        {
+            "input": "889696",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat DeadlockDetector.main(DeadlockDetector.java:23)"
+        },
+        {
+            "input": "-864893",
+            "output": "NO_DEADLOCK",
+            "error": ""
+        },
+        {
+            "input": "832231",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat DeadlockDetector.main(DeadlockDetector.java:23)"
+        },
+        {
+            "input": "-468156",
+            "output": "NO_DEADLOCK",
+            "error": ""
+        },
+        {
+            "input": "414876",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat DeadlockDetector.main(DeadlockDetector.java:23)"
+        }
+    ],
+    "EvenOddChecker": [
+        {
+            "input": "-1000000000",
+            "output": "Enter an integer: -1000000000 is an EVEN number.",
+            "error": ""
+        },
+        {
+            "input": "0",
+            "output": "Enter an integer: 0 is an EVEN number.",
+            "error": ""
+        },
+        {
+            "input": "1000000000",
+            "output": "Enter an integer: 1000000000 is an EVEN number.",
+            "error": ""
+        },
+        {
+            "input": "1",
+            "output": "Enter an integer: 1 is an ODD number.",
+            "error": ""
+        },
+        {
+            "input": "-1",
+            "output": "Enter an integer: -1 is an ODD number.",
+            "error": ""
+        },
+        {
+            "input": "-866427",
+            "output": "Enter an integer: -866427 is an ODD number.",
+            "error": ""
+        },
+        {
+            "input": "462787",
+            "output": "Enter an integer: 462787 is an ODD number.",
+            "error": ""
+        },
+        {
+            "input": "-819724",
+            "output": "Enter an integer: -819724 is an EVEN number.",
+            "error": ""
+        },
+        {
+            "input": "819064",
+            "output": "Enter an integer: 819064 is an EVEN number.",
+            "error": ""
+        },
+        {
+            "input": "-26416",
+            "output": "Enter an integer: -26416 is an EVEN number.",
+            "error": ""
+        }
+    ],
+    "EventDispatcher": [
+        {
+            "input": "1000000000",
+            "output": "Enter number of events: Enter 1000000000 integer priorities:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat EventDispatcher.readIntSafe(EventDispatcher.java:56)\n\tat EventDispatcher.main(EventDispatcher.java:29)"
+        },
+        {
+            "input": "1",
+            "output": "Enter number of events: Enter 1 integer priorities:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat EventDispatcher.readIntSafe(EventDispatcher.java:56)\n\tat EventDispatcher.main(EventDispatcher.java:29)"
+        },
+        {
+            "input": "0",
+            "output": "Enter number of events: Enter 0 integer priorities:",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: maximumPoolSize must be positive\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1257)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat EventDispatcher.main(EventDispatcher.java:39)"
+        },
+        {
+            "input": "1",
+            "output": "Enter number of events: Enter 1 integer priorities:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat EventDispatcher.readIntSafe(EventDispatcher.java:56)\n\tat EventDispatcher.main(EventDispatcher.java:29)"
+        },
+        {
+            "input": "1000000000",
+            "output": "Enter number of events: Enter 1000000000 integer priorities:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat EventDispatcher.readIntSafe(EventDispatcher.java:56)\n\tat EventDispatcher.main(EventDispatcher.java:29)"
+        },
+        {
+            "input": "-381626",
+            "output": "Enter number of events: Enter -381626 integer priorities:",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat EventDispatcher.main(EventDispatcher.java:39)"
+        },
+        {
+            "input": "896065",
+            "output": "Enter number of events: Enter 896065 integer priorities:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat EventDispatcher.readIntSafe(EventDispatcher.java:56)\n\tat EventDispatcher.main(EventDispatcher.java:29)"
+        },
+        {
+            "input": "22734",
+            "output": "Enter number of events: Enter 22734 integer priorities:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:\nInvalid input. Enter a valid integer:",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat EventDispatcher.readIntSafe(EventDispatcher.java:56)\n\tat EventDispatcher.main(EventDispatcher.java:29)"
+        },
+        {
+            "input": "-906768",
+            "output": "Enter number of events: Enter -906768 integer priorities:",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat EventDispatcher.main(EventDispatcher.java:39)"
+        },
+        {
+            "input": "-944281",
+            "output": "Enter number of events: Enter -944281 integer priorities:",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat EventDispatcher.main(EventDispatcher.java:39)"
+        }
+    ],
+    "FactorialCalculator": [
+        {
+            "input": "1000000000",
+            "output": "Enter a non-negative integer: The factorial of 1000000000 is: 0",
+            "error": ""
+        },
+        {
+            "input": "0",
+            "output": "Enter a non-negative integer: The factorial of 0 is: 1",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "Enter a non-negative integer: The factorial of -1000000000 is: 1",
+            "error": ""
+        },
+        {
+            "input": "0",
+            "output": "Enter a non-negative integer: The factorial of 0 is: 1",
+            "error": ""
+        },
+        {
+            "input": "-1",
+            "output": "Enter a non-negative integer: The factorial of -1 is: 1",
+            "error": ""
+        },
+        {
+            "input": "210498",
+            "output": "Enter a non-negative integer: The factorial of 210498 is: 0",
+            "error": ""
+        },
+        {
+            "input": "905959",
+            "output": "Enter a non-negative integer: The factorial of 905959 is: 0",
+            "error": ""
+        },
+        {
+            "input": "-18817",
+            "output": "Enter a non-negative integer: The factorial of -18817 is: 1",
+            "error": ""
+        },
+        {
+            "input": "-582551",
+            "output": "Enter a non-negative integer: The factorial of -582551 is: 1",
+            "error": ""
+        },
+        {
+            "input": "264446",
+            "output": "Enter a non-negative integer: The factorial of 264446 is: 0",
+            "error": ""
+        }
+    ],
+    "FibonacciCache": [
+        {
+            "input": "1000000000 1",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat FibonacciCache.main(FibonacciCache.java:29)"
+        },
+        {
+            "input": "-1000000000 -1000000000",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat FibonacciCache.main(FibonacciCache.java:32)"
+        },
+        {
+            "input": "1 -1",
+            "output": "1",
+            "error": ""
+        },
+        {
+            "input": "1000000000 1",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat FibonacciCache.main(FibonacciCache.java:29)"
+        },
+        {
+            "input": "1 -1000000000",
+            "output": "1",
+            "error": ""
+        },
+        {
+            "input": "106058 -770116",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat FibonacciCache.main(FibonacciCache.java:29)"
+        },
+        {
+            "input": "-899618 84651",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat FibonacciCache.main(FibonacciCache.java:32)"
+        },
+        {
+            "input": "328447 -767174",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat FibonacciCache.main(FibonacciCache.java:29)"
+        },
+        {
+            "input": "955625 -533513",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat FibonacciCache.main(FibonacciCache.java:29)"
+        },
+        {
+            "input": "-855921 -211993",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat FibonacciCache.main(FibonacciCache.java:32)"
+        }
+    ],
+    "MaxOfThree": [
+        {
+            "input": "-1000000000 -1000000000 1",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 1",
+            "error": ""
+        },
+        {
+            "input": "-1000000000 -1000000000 -1",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: -1",
+            "error": ""
+        },
+        {
+            "input": "-1 1 1",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 1",
+            "error": ""
+        },
+        {
+            "input": "1 1000000000 1",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 1000000000",
+            "error": ""
+        },
+        {
+            "input": "0 1000000000 1000000000",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 1000000000",
+            "error": ""
+        },
+        {
+            "input": "-760292 9763 -367178",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 9763",
+            "error": ""
+        },
+        {
+            "input": "-637668 -178400 -928353",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: -178400",
+            "error": ""
+        },
+        {
+            "input": "151325 -398482 528776",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 528776",
+            "error": ""
+        },
+        {
+            "input": "265041 -837526 -318283",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 265041",
+            "error": ""
+        },
+        {
+            "input": "-678305 -120731 591922",
+            "output": "Enter first number: Enter second number: Enter third number: The largest number is: 591922",
+            "error": ""
+        }
+    ],
+    "MultiplicationTable": [
+        {
+            "input": "-1000000000",
+            "output": "Enter an integer to see its multiplication table: --- Table of -1000000000 ---\n-1000000000 x 1 = -1000000000\n-1000000000 x 2 = -2000000000\n-1000000000 x 3 = 1294967296\n-1000000000 x 4 = 294967296\n-1000000000 x 5 = -705032704\n-1000000000 x 6 = -1705032704\n-1000000000 x 7 = 1589934592\n-1000000000 x 8 = 589934592\n-1000000000 x 9 = -410065408\n-1000000000 x 10 = -1410065408",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "Enter an integer to see its multiplication table: --- Table of -1000000000 ---\n-1000000000 x 1 = -1000000000\n-1000000000 x 2 = -2000000000\n-1000000000 x 3 = 1294967296\n-1000000000 x 4 = 294967296\n-1000000000 x 5 = -705032704\n-1000000000 x 6 = -1705032704\n-1000000000 x 7 = 1589934592\n-1000000000 x 8 = 589934592\n-1000000000 x 9 = -410065408\n-1000000000 x 10 = -1410065408",
+            "error": ""
+        },
+        {
+            "input": "1000000000",
+            "output": "Enter an integer to see its multiplication table: --- Table of 1000000000 ---\n1000000000 x 1 = 1000000000\n1000000000 x 2 = 2000000000\n1000000000 x 3 = -1294967296\n1000000000 x 4 = -294967296\n1000000000 x 5 = 705032704\n1000000000 x 6 = 1705032704\n1000000000 x 7 = -1589934592\n1000000000 x 8 = -589934592\n1000000000 x 9 = 410065408\n1000000000 x 10 = 1410065408",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "Enter an integer to see its multiplication table: --- Table of -1000000000 ---\n-1000000000 x 1 = -1000000000\n-1000000000 x 2 = -2000000000\n-1000000000 x 3 = 1294967296\n-1000000000 x 4 = 294967296\n-1000000000 x 5 = -705032704\n-1000000000 x 6 = -1705032704\n-1000000000 x 7 = 1589934592\n-1000000000 x 8 = 589934592\n-1000000000 x 9 = -410065408\n-1000000000 x 10 = -1410065408",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "Enter an integer to see its multiplication table: --- Table of -1000000000 ---\n-1000000000 x 1 = -1000000000\n-1000000000 x 2 = -2000000000\n-1000000000 x 3 = 1294967296\n-1000000000 x 4 = 294967296\n-1000000000 x 5 = -705032704\n-1000000000 x 6 = -1705032704\n-1000000000 x 7 = 1589934592\n-1000000000 x 8 = 589934592\n-1000000000 x 9 = -410065408\n-1000000000 x 10 = -1410065408",
+            "error": ""
+        },
+        {
+            "input": "-776383",
+            "output": "Enter an integer to see its multiplication table: --- Table of -776383 ---\n-776383 x 1 = -776383\n-776383 x 2 = -1552766\n-776383 x 3 = -2329149\n-776383 x 4 = -3105532\n-776383 x 5 = -3881915\n-776383 x 6 = -4658298\n-776383 x 7 = -5434681\n-776383 x 8 = -6211064\n-776383 x 9 = -6987447\n-776383 x 10 = -7763830",
+            "error": ""
+        },
+        {
+            "input": "-932661",
+            "output": "Enter an integer to see its multiplication table: --- Table of -932661 ---\n-932661 x 1 = -932661\n-932661 x 2 = -1865322\n-932661 x 3 = -2797983\n-932661 x 4 = -3730644\n-932661 x 5 = -4663305\n-932661 x 6 = -5595966\n-932661 x 7 = -6528627\n-932661 x 8 = -7461288\n-932661 x 9 = -8393949\n-932661 x 10 = -9326610",
+            "error": ""
+        },
+        {
+            "input": "467600",
+            "output": "Enter an integer to see its multiplication table: --- Table of 467600 ---\n467600 x 1 = 467600\n467600 x 2 = 935200\n467600 x 3 = 1402800\n467600 x 4 = 1870400\n467600 x 5 = 2338000\n467600 x 6 = 2805600\n467600 x 7 = 3273200\n467600 x 8 = 3740800\n467600 x 9 = 4208400\n467600 x 10 = 4676000",
+            "error": ""
+        },
+        {
+            "input": "-893416",
+            "output": "Enter an integer to see its multiplication table: --- Table of -893416 ---\n-893416 x 1 = -893416\n-893416 x 2 = -1786832\n-893416 x 3 = -2680248\n-893416 x 4 = -3573664\n-893416 x 5 = -4467080\n-893416 x 6 = -5360496\n-893416 x 7 = -6253912\n-893416 x 8 = -7147328\n-893416 x 9 = -8040744\n-893416 x 10 = -8934160",
+            "error": ""
+        },
+        {
+            "input": "-561338",
+            "output": "Enter an integer to see its multiplication table: --- Table of -561338 ---\n-561338 x 1 = -561338\n-561338 x 2 = -1122676\n-561338 x 3 = -1684014\n-561338 x 4 = -2245352\n-561338 x 5 = -2806690\n-561338 x 6 = -3368028\n-561338 x 7 = -3929366\n-561338 x 8 = -4490704\n-561338 x 9 = -5052042\n-561338 x 10 = -5613380",
+            "error": ""
+        }
+    ],
+    "PalindromeChecker": [
+        {
+            "input": "abc",
+            "output": "Enter a word or phrase: 'abc' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "1234",
+            "output": "Enter a word or phrase: '1234' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "output": "Enter a word or phrase: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' is a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "a",
+            "output": "Enter a word or phrase: 'a' is a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "abc",
+            "output": "Enter a word or phrase: 'abc' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "str6831",
+            "output": "Enter a word or phrase: 'str6831' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "str3471",
+            "output": "Enter a word or phrase: 'str3471' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "str2418",
+            "output": "Enter a word or phrase: 'str2418' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "str6051",
+            "output": "Enter a word or phrase: 'str6051' is NOT a Palindrome.",
+            "error": ""
+        },
+        {
+            "input": "str391",
+            "output": "Enter a word or phrase: 'str391' is NOT a Palindrome.",
+            "error": ""
+        }
+    ],
+    "ParallelFileLineCount": [
+        {
+            "input": "0",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: maximumPoolSize must be positive\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1257)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "-1",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "0",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: maximumPoolSize must be positive\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1257)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "-1000000000",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "0",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: maximumPoolSize must be positive\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1257)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "397446",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:14)"
+        },
+        {
+            "input": "-134751",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "915807",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:14)"
+        },
+        {
+            "input": "-783204",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        },
+        {
+            "input": "-796321",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelFileLineCount.main(ParallelFileLineCount.java:17)"
+        }
+    ],
+    "ParallelPrimeFinder": [
+        {
+            "input": "1000000000 -1 1000000000",
+            "output": "0",
+            "error": ""
+        },
+        {
+            "input": "-1 -1 1",
+            "output": "0",
+            "error": ""
+        },
+        {
+            "input": "-1000000000 0 1",
+            "output": "0",
+            "error": ""
+        },
+        {
+            "input": "-1000000000 1000000000 0",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.ArithmeticException: / by zero\n\tat ParallelPrimeFinder.main(ParallelPrimeFinder.java:22)"
+        },
+        {
+            "input": "0 1 1",
+            "output": "0",
+            "error": ""
+        },
+        {
+            "input": "-409613 -231401 661341",
+            "output": "0",
+            "error": ""
+        },
+        {
+            "input": "-260106 761026 -845967",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelPrimeFinder.main(ParallelPrimeFinder.java:23)"
+        },
+        {
+            "input": "869611 411766 -513041",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException: corePoolSize must be non-negative\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1255)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1143)\n\tat java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:89)\n\tat ParallelPrimeFinder.main(ParallelPrimeFinder.java:23)"
+        },
+        {
+            "input": "506290 -940316 865439",
+            "output": "0",
+            "error": ""
+        },
+        {
+            "input": "-147661 -623322 126434",
+            "output": "0",
+            "error": ""
+        }
+    ],
+    "ProducerConsumer": [
+        {
+            "input": "0",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "0",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "1",
+            "output": "sample",
+            "error": ""
+        },
+        {
+            "input": "-1000000000",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "8321",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat ProducerConsumer.main(ProducerConsumer.java:13)"
+        },
+        {
+            "input": "889981",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat ProducerConsumer.main(ProducerConsumer.java:13)"
+        },
+        {
+            "input": "-249450",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "-894332",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "428929",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat ProducerConsumer.main(ProducerConsumer.java:13)"
+        }
+    ],
+    "SharedResourcePool": [
+        {
+            "input": "-1000000000 0",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:273)\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:258)\n\tat SharedResourcePool.main(SharedResourcePool.java:14)"
+        },
+        {
+            "input": "1 1",
+            "output": "1",
+            "error": ""
+        },
+        {
+            "input": "0 1",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:273)\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:258)\n\tat SharedResourcePool.main(SharedResourcePool.java:14)"
+        },
+        {
+            "input": "1 -1",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.NegativeArraySizeException: -1\n\tat SharedResourcePool.main(SharedResourcePool.java:18)"
+        },
+        {
+            "input": "-1000000000 1000000000",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:273)\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:258)\n\tat SharedResourcePool.main(SharedResourcePool.java:14)"
+        },
+        {
+            "input": "953377 -251080",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.NegativeArraySizeException: -251080\n\tat SharedResourcePool.main(SharedResourcePool.java:18)"
+        },
+        {
+            "input": "-695629 410269",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:273)\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:258)\n\tat SharedResourcePool.main(SharedResourcePool.java:14)"
+        },
+        {
+            "input": "835737 -641906",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.NegativeArraySizeException: -641906\n\tat SharedResourcePool.main(SharedResourcePool.java:18)"
+        },
+        {
+            "input": "150036 -134417",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.NegativeArraySizeException: -134417\n\tat SharedResourcePool.main(SharedResourcePool.java:18)"
+        },
+        {
+            "input": "-208094 215506",
+            "output": "",
+            "error": "Exception in thread \"main\" java.lang.IllegalArgumentException\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:273)\n\tat java.base/java.util.concurrent.ArrayBlockingQueue.<init>(ArrayBlockingQueue.java:258)\n\tat SharedResourcePool.main(SharedResourcePool.java:14)"
+        }
+    ],
+    "SimpleInterest": [
+        {
+            "input": "-1.0 0.0 0.0",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: -0.0",
+            "error": ""
+        },
+        {
+            "input": "-1.0 1000000000.0 -1000000000.0",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: 1.0E16",
+            "error": ""
+        },
+        {
+            "input": "-1000000000.0 1.0 -1.0",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: 1.0E7",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0 -1.0 1.0",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: -1.0E7",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0 -1000000000.0 -1.0",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: 1.0E16",
+            "error": ""
+        },
+        {
+            "input": "-138652.6971 770014.0409 -624712.2506",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: 6.669710580718401E14",
+            "error": ""
+        },
+        {
+            "input": "-475823.9718 113681.2093 818895.717",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: -4.4295907367021256E14",
+            "error": ""
+        },
+        {
+            "input": "-794650.1704 595435.4591 599963.1297",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: -2.838802877639427E15",
+            "error": ""
+        },
+        {
+            "input": "-944216.2467 52771.4878 703185.9037",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: -3.5038133541808975E14",
+            "error": ""
+        },
+        {
+            "input": "850765.6832 -857216.1182 -557072.9512",
+            "output": "Enter Principal amount: Enter Rate of interest: Enter Time (in years): Simple Interest is: 4.062677640276807E15",
+            "error": ""
+        }
+    ],
+    "SpeculativeExecutor": [
+        {
+            "input": "-1 -1 1000000000",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "-1 0 1",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "0 1000000000 -1000000000",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "1 1000000000 1",
+            "output": "1000000000:COMMIT",
+            "error": ""
+        },
+        {
+            "input": "1 -1 1000000000",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat SpeculativeExecutor.main(SpeculativeExecutor.java:15)"
+        },
+        {
+            "input": "672185 -510201 880266",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:975)\n\tat java.base/java.util.Scanner.next(Scanner.java:1516)\n\tat SpeculativeExecutor.main(SpeculativeExecutor.java:15)"
+        },
+        {
+            "input": "86612 -167842 -126812",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat SpeculativeExecutor.main(SpeculativeExecutor.java:12)"
+        },
+        {
+            "input": "60089 -635511 -159804",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat SpeculativeExecutor.main(SpeculativeExecutor.java:12)"
+        },
+        {
+            "input": "-74149 -240421 893192",
+            "output": "",
+            "error": ""
+        },
+        {
+            "input": "429876 -436016 -393263",
+            "output": "",
+            "error": "Exception in thread \"main\" java.util.InputMismatchException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:977)\n\tat java.base/java.util.Scanner.next(Scanner.java:1632)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2297)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2251)\n\tat SpeculativeExecutor.main(SpeculativeExecutor.java:12)"
+        }
+    ],
+    "SumCalculator": [
+        {
+            "input": "1000000000 0",
+            "output": "Enter the first number: Enter the second number: The sum is: 1000000000",
+            "error": ""
+        },
+        {
+            "input": "1 1",
+            "output": "Enter the first number: Enter the second number: The sum is: 2",
+            "error": ""
+        },
+        {
+            "input": "1 0",
+            "output": "Enter the first number: Enter the second number: The sum is: 1",
+            "error": ""
+        },
+        {
+            "input": "-1 -1",
+            "output": "Enter the first number: Enter the second number: The sum is: -2",
+            "error": ""
+        },
+        {
+            "input": "-1000000000 -1",
+            "output": "Enter the first number: Enter the second number: The sum is: -1000000001",
+            "error": ""
+        },
+        {
+            "input": "-971198 836996",
+            "output": "Enter the first number: Enter the second number: The sum is: -134202",
+            "error": ""
+        },
+        {
+            "input": "-505914 -416060",
+            "output": "Enter the first number: Enter the second number: The sum is: -921974",
+            "error": ""
+        },
+        {
+            "input": "428019 317855",
+            "output": "Enter the first number: Enter the second number: The sum is: 745874",
+            "error": ""
+        },
+        {
+            "input": "350748 -917367",
+            "output": "Enter the first number: Enter the second number: The sum is: -566619",
+            "error": ""
+        },
+        {
+            "input": "172593 -413422",
+            "output": "Enter the first number: Enter the second number: The sum is: -240829",
+            "error": ""
+        }
+    ],
+    "TempConverter": [
+        {
+            "input": "-1.0",
+            "output": "Enter temperature in Celsius: -1.0\u00b0C is equal to 30.2\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0",
+            "output": "Enter temperature in Celsius: 1.0E9\u00b0C is equal to 1.800000032E9\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "1.0",
+            "output": "Enter temperature in Celsius: 1.0\u00b0C is equal to 33.8\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "1000000000.0",
+            "output": "Enter temperature in Celsius: 1.0E9\u00b0C is equal to 1.800000032E9\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "-1000000000.0",
+            "output": "Enter temperature in Celsius: -1.0E9\u00b0C is equal to -1.799999968E9\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "-863095.5057",
+            "output": "Enter temperature in Celsius: -863095.5057\u00b0C is equal to -1553539.9102599998\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "625991.6409",
+            "output": "Enter temperature in Celsius: 625991.6409\u00b0C is equal to 1126816.95362\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "-52992.095",
+            "output": "Enter temperature in Celsius: -52992.095\u00b0C is equal to -95353.771\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "-705346.6121",
+            "output": "Enter temperature in Celsius: -705346.6121\u00b0C is equal to -1269591.90178\u00b0F",
+            "error": ""
+        },
+        {
+            "input": "-141650.6088",
+            "output": "Enter temperature in Celsius: -141650.6088\u00b0C is equal to -254939.09584\u00b0F",
+            "error": ""
+        }
+    ]
+}
