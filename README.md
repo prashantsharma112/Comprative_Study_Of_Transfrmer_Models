@@ -1,6 +1,4 @@
-# Comprative_Study_Of_Transfrmer_Models
-Comparative Analysis of Programming Language Conversion
-Using Transformer-Based Models (Java → Python)
+# Comparative Analysis of Programming Language Conversion Using Transformer-Based Models (Java → Python)
 
 Author: Prashant Sharma
 
@@ -160,7 +158,11 @@ Hybrid Model performs well but is slow
 CodeT5 fails in syntax generation
 
 CodeGen produces syntactically valid but semantically weak code
-
+![accuracy_pass_rate.png](results/accuracy_pass_rate.png)
+![bleu_quality.png](results/bleu_quality.png)
+![combined_graph.png](results/combined_graph.png)
+![performance_time.png](results/performance_time.png)
+![syntax_success.png](results/syntax_success.png)
 🔹 Performance Summary
 
 | Model   | Accuracy (%) | Syntax (%) | BLEU      | Time (s) |
